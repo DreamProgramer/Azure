@@ -1,0 +1,35 @@
+body{
+	background:url(../img/New_York_Black_And_White_by_Morgadu.jpg);
+	background-position: right bottom; 
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	-moz-background-size:cover;
+	background-size:cover; 
+	color:#ffffff;
+	margin-top:100px;
+	margin-bottom: 100px;
+}
+
+.content-inner{
+	padding: 10px 10px;
+	opacity: 1.0;
+}
+
+.content-background{
+	margin: 200px 200px;
+	width: 800px;
+/*
+	background-color:#696969;
+     filter:alpha(opacity=85);
+     -moz-opacity:0.85;
+     -khtml-opacity: 0.85;
+     opacity:0.85;
+*/
+background: rgba(0, 0, 0, 0.7);
+	margin:0 auto;
+}
+
+h4{
+	margin-left: 40px;
+}
+
