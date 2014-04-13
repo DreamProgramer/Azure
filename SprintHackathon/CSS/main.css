@@ -1,0 +1,252 @@
+body {
+    margin : 0;
+    padding : 0;
+    background : #ff9900;
+    coler: #ffffff;
+    padding: 50px;
+}
+
+div {
+    display: block;
+}
+
+#headWrap {
+    width : 100%;
+    height : 150px;
+    margin : 0;
+    padding : 0;
+    float : left;
+    background : url(images/headBg.jpg) repeat-x;
+}
+
+#headpanel {
+    width : 900px;
+    height :150px;
+    margin : 0 auto;
+    padding : 0;
+}
+#logo { 
+    font-family: Tahoma;
+    /*   font-size: 46px;
+	 font-weight: bold;
+	 line-height: 50px;
+	 */
+    height: 150px;
+    float: left;
+}
+#logo img{
+    background: white; 
+    height: 150px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 150px;
+
+}
+#menu {
+    width: 700px;
+    height : 100px;
+    margin : 20px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+    float : left;
+    background: #ffdf7f;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+
+}
+
+#menu ul {
+    width: 600px;
+    height : 28px;
+
+    margin : 0;
+    padding : 0;
+    float : left;
+    display : block;
+}
+
+#menu ul li {
+    width : auto;
+    height : 28px;
+    margin : 0;
+    padding : 0;
+    float : left;
+    display : block;
+}
+
+a {
+    color: #fff;
+    text-decoration: none
+}
+
+#menu ul li .gap {
+    width : 1px;
+    height : 28px;
+    margin : 0;
+    padding : 0 11px 0 11px;
+    float : left;
+    background : url(images/menuspace.jpg) center top no-repeat;
+}
+
+#contentWrap { 
+    width : 100%;
+    margin : 0;
+    padding : 0;
+    float : left;
+}
+
+#content {
+    width: 900px;
+    margin: 0 auto;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background: white;
+}
+
+
+#content img#maneUser{ 
+    position: relative;
+    top: 200px;
+    left: 280px;
+    
+}
+
+#content img#character{ 
+    position: relative;
+    width: 100px;
+    top: 200px;
+    left: 260px;
+    
+}
+
+#content img#maneProg{ 
+    position: relative;
+    top: 200px;
+    left: 260px;
+    
+}
+
+#house_iPhone{ 
+    background-image: url("../image/house_iPhone.png");
+    background-color: #fff;
+    background-repeat: no-repeat;
+    margin: 20px auto;
+    width: 900px;
+    height: 480px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+
+}
+
+#house_Android{ 
+    background-image: url("../image/house_Android.png");
+    background-color: #fff;
+    background-repeat: no-repeat;
+    margin: 20px auto;
+    width: 900px;
+    height: 475px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+#house_2D{ 
+    background-image: url("../image/house_2D.png");
+    background-repeat: no-repeat;
+    margin: 20px auto;
+    width: 900px;
+    height: 475px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+#house_Animation{ 
+    background-image: url("../image/house_Animation.png");
+    background-repeat: no-repeat;
+    margin: 20px auto;
+    width: 900px;
+    height: 480px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+
+
+#userInfo {
+    width: 200px;
+    height: 400px;
+    padding: 20px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    margin: 20px;
+    color: #ffffff;
+    background: #ffcc33;
+    float: left;
+}
+
+#userInfo img { 
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+input.button {
+    border:solid 2px #ccc;
+}
+
+input.box {
+    border:solid 1px #ccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+input.box:focus {
+    border:solid 1px #EEA34A;
+}
+
+div#contMain { 
+    float: left;
+    width: 500px;
+}
+
+div#contMain h1 { 
+    font-family: Tahoma;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+div#contMain h2 { 
+    font-family: Tahoma;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 20px;
+}
+
+div#contMain h3 { 
+    font-family: Tahoma;
+    font-size: 15px;
+    line-height: 30px;
+    margin-left: 30px;
+}
+
+.motion {
+    width: 900px;
+    display: none;
+    margin: 0 auto;
+}
+#motion_area1 {
+    display: block;
+}
+a.active {
+    font-weight: bold;
+    background: #ddd;
+}
+
