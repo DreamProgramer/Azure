@@ -10,22 +10,12 @@ body{
 	margin-bottom: 100px;
 }
 
-.content-inner{
-	padding: 10px 10px;
+div.content-background{
+    	padding: 10px 10px;
 	opacity: 1.0;
-}
-
-.content-background{
 	margin: 200px 200px;
 	width: 800px;
-/*
-	background-color:#696969;
-     filter:alpha(opacity=85);
-     -moz-opacity:0.85;
-     -khtml-opacity: 0.85;
-     opacity:0.85;
-*/
-background: rgba(0, 0, 0, 0.7);
+	background: rgba(0, 0, 0, 0.7);
 	margin:0 auto;
 }
 
